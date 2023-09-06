@@ -15,7 +15,7 @@ public class weapon : MonoBehaviour
 
     bool canShoot = true; //only shoot when allowed 
 
-    private void onEnable()
+    private void OnEnable()
     {
         canShoot = true;
     }
